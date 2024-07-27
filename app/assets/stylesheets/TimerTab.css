@@ -1,0 +1,71 @@
+.timer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	width: calc(100%/* + 4px*/);
+	/*margin-left: -2px;
+	margin-top: -2px;*/
+	color: #808080;
+	transition: background-color 0.5s ease;
+	/*border-radius: 34px 34px 0 0;*/
+	font-size: 1.0em;
+	font-weight: bold;
+	font-family: 'Arial', sans-serif;
+	padding: 20px;
+	background-size: 210% 100%;
+	background-position: right bottom;
+	/* Adjust the angle here, 45deg for a diagonal line */
+	background-image: linear-gradient(45deg, black 50%, white 50%);
+	/* No initial animation */
+}
+
+.player-turn {
+	padding-bottom: 10px;
+}
+
+#timer-head,
+#timer-body,
+#timer-captures {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	flex-direction: row;
+}
+
+.black-section,
+.white-section {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	/*padding: 2px;*/
+}
+
+.black-section {
+	align-items: flex-start;
+}
+
+.white-section {
+	align-items: flex-end;
+}
+
+/* Trigger animations on player's turn */
+.timer.black-turn {
+	animation: slideToBlack 0.5s ease forwards;
+}
+
+.timer.white-turn {
+	animation: slideToWhite 0.5s ease forwards;
+}
+
+/* Keyframes for sliding effect */
+@keyframes slideToBlack {
+	from { background-position: right bottom; }
+	to { background-position: left bottom; }
+}
+
+@keyframes slideToWhite {
+	from { background-position: left bottom; }
+	to { background-position: right bottom; }
+}

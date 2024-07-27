@@ -1,0 +1,40 @@
+button {
+    background-color: #fab387; /* Peach background */
+    color: white; /* White text */
+    padding: 15px 30px; /* Top and bottom padding, Left and right padding */
+    margin: 10px; /* Margin around buttons */
+    border: none; /* No border for a modern look */
+    border-radius: 25px; /* Rounded corners for a softer look */
+    cursor: pointer; /* Cursor changes to a hand icon when hovering over button */
+    transition: all 0.3s; /* Smooth transition for hover effects */
+    font-size: 1rem; /* Default font size */
+    font-weight: bold; /* Bold font for better legibility */
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    text-transform: uppercase; /* Uppercase text for stylistic choice */
+    letter-spacing: 1px; /* Spacing between letters for a premium feel */
+}
+
+button:hover {
+    background-color: #e99e7e; /* Slightly darker green on hover for interactivity */
+    box-shadow: 0 12px 20px rgba(0,0,0,0.2); /* Larger shadow on hover for a "lifting" effect */
+}
+
+button:active {
+    background-color: #d9856d; /* Even darker green for active/clicked state */
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2); /* Smaller shadow for a "pressed" effect */
+}
+
+button:focus {
+    outline: none; /* Removes the default focus outline */
+    border: 2px solid #e99e7e; /* Adds a border to indicate focus, can match the hover state */
+}
+
+/* Disabled Button Styles */
+
+button:disabled,
+button[disabled]{
+    background-color: #cccccc; /* Greyed out background for disabled state */
+    color: #666666; /* Dark grey text to indicate the button is not active */
+    cursor: not-allowed; /* Cursor indicates the button is not clickable */
+    box-shadow: none; /* No shadow for flat appearance */
+}
