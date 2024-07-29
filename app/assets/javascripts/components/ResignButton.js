@@ -1,4 +1,4 @@
-import { gameStateManager } from '../services/GameStateManager.js'
+//import { gameStateManager } from '../services/GameStateManager.js'
 import { loadStyles } from '../utils/StyleLoader.js';
 import { getPlayerSGFColor } from '../utils/SGFUtil.js'
 
