@@ -1,7 +1,7 @@
 //Module to handle the creation of the board.
 ///Draw the grid lines, add coordinates, add hoshi (start points).
 
-import { EDGE_MARGIN, LENGTH_SQUARE, ALPHABET, OFFSET, TEXT_STYLE, SVG_NS } from '../utils/constants.js'; //Import global variables
+//import { EDGE_MARGIN, LENGTH_SQUARE, ALPHABET, OFFSET, TEXT_STYLE, SVG_NS } from '../utils/constants.js'; //Import global variables
 
 export class SVGBoard {
 	constructor(SVG_NS, size) {
