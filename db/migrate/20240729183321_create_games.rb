@@ -5,14 +5,15 @@ class CreateGames < ActiveRecord::Migration[7.1]
       t.integer :board_size, null: false, default: 9
       t.string :game_type
       t.string :timer
+      t.float :komi, null: false, default: 0.5
       t.integer :player_black_id
       t.integer :player_white_id
       t.string :status
 
       t.timestamps
 
-      t.index: player_black_id
-      t.index: player_white_id
+      t.index :player_black_id
+      t.index :player_white_id
     end
   end
 end
