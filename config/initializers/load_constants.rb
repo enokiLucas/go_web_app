@@ -1,4 +1,4 @@
-CONSTANTS = JSON.parse(File.read(Rails.root.join('config/constants/constants.json')))
+CONSTANTS = JSON.parse(File.read(Rails.root.join('app/config/constants/constants.json')))
 
 =begin Example usage in a controller
 

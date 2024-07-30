@@ -7,4 +7,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "home#index"
+
+  # Get constants to javascript modules
+  get "constants", to: "constants#show"
 end
