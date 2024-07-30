@@ -1,0 +1,8 @@
+{
+  "EDGE_MARGIN": 20,
+  "LENGTH_SQUARE": 50,
+  "ALPHABET": "ABCDEFGHJKLMNOPQRSTUVWXYZ",
+  "OFFSET": 8,
+  "FONT_SIZE": 10,
+  "SVG_NS": "http://www.w3.org/2000/svg"
+}
