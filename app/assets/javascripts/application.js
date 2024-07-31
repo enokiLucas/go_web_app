@@ -6,3 +6,6 @@ document.addEventListener('turbo:load', () => {
   customElements.define('go-board', GoBoard);
   // ... initialize other custom elements
 });
+
+//Test the constants
+console.log(window.CONSTANTS.OFFSET);  // Outputs: value1
