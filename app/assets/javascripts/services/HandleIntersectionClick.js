@@ -1,4 +1,4 @@
-import { gameStateManager } from './GameStateManager.js';
+/*import { gameStateManager } from './GameStateManager.js';
 import { rulesControl } from './RulesControl.js';
 import { placeStoneOnBoard } from './PlaceStoneOnBoard.js';
 import { convertToSGFPosition, getPlayerSGFColor } from '../utils/SGFUtil.js';
@@ -8,7 +8,7 @@ import { captureRule } from './rules/CaptureRule.js';
 import { exploreTerritory } from '../utils/ScoreUtil.js';
 import { territoryScoring } from './score/TerritoryScoring.js';
 import { influenceMap } from './InfluenceMap.js';
-import { deadStonesDetector } from './DeadStonesDetector.js'
+import { deadStonesDetector } from './DeadStonesDetector.js'*/
 
 let lastMoveMetadata = {}; // Temporary storage for metadata outside of handleIntersectionClick
 

@@ -1,7 +1,7 @@
-import { gameStateManager } from './GameStateManager.js';
+/*import { gameStateManager } from './GameStateManager.js';
 import { territoryScoring } from './score/TerritoryScoring.js';
 import { deadStonesDetector } from './DeadStonesDetector.js';
-import { rulesControl } from './RulesControl.js';
+import { rulesControl } from './RulesControl.js';*/
 
 class EndGameManager {
 	constructor() {

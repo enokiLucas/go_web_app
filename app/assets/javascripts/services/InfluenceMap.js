@@ -1,5 +1,5 @@
-import { rulesControl } from './RulesControl.js';
-import { gameStateManager } from './GameStateManager.js';
+/*import { rulesControl } from './RulesControl.js';
+import { gameStateManager } from './GameStateManager.js';*/
 
 class InfluenceMap {
 	constructor() {

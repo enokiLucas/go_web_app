@@ -1,6 +1,6 @@
-import { rulesControl } from '../RulesControl.js';
+/*import { rulesControl } from '../RulesControl.js';
 import { gameStateManager } from '../GameStateManager.js';
-import { identifyGroups, hasLiberties, toggleColor } from '../../utils/RulesUtil.js';
+import { identifyGroups, hasLiberties, toggleColor } from '../../utils/RulesUtil.js';*/
 
 
 class CaptureRule {

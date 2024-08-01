@@ -1,4 +1,4 @@
-import { hasLiberties, identifyGroups } from '../../utils/RulesUtil.js';
+/*import { hasLiberties, identifyGroups } from '../../utils/RulesUtil.js';*/
 
 class SuicideRule {
 	constructor() {}

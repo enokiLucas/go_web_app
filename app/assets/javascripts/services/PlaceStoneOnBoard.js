@@ -1,4 +1,4 @@
-import { SVG_NS, LENGTH_SQUARE, EDGE_MARGIN } from '../utils/constants.js'
+/*import { SVG_NS, LENGTH_SQUARE, EDGE_MARGIN } from '../utils/constants.js'*/
 
 export function placeStoneOnBoard(board, x, y, playerColor) {
 	let stone = document.createElementNS(SVG_NS, "circle");

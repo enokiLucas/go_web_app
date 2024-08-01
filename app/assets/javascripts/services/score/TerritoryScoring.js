@@ -1,5 +1,5 @@
-import { rulesControl } from '../RulesControl.js';
-import { exploreTerritory } from '../../utils/ScoreUtil.js';
+/*import { rulesControl } from '../RulesControl.js';
+import { exploreTerritory } from '../../utils/ScoreUtil.js';*/
 
 class TerritoryScoring {
 	constructor() {

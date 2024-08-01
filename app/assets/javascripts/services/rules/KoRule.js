@@ -1,4 +1,4 @@
-import { rulesControl } from '../RulesControl.js';
+/*import { rulesControl } from '../RulesControl.js';*/
 
 class KoRule {
 	checkForKo(x, y, player) {

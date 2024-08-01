@@ -1,4 +1,4 @@
-import { territoryScoring } from './TerritoryScoring.js';
+/*import { territoryScoring } from './TerritoryScoring.js';*/
 
 export class ScoreControl {
 	constructor() {

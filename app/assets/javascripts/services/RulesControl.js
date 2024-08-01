@@ -1,7 +1,7 @@
-import { gameStateManager } from './GameStateManager.js';
+/*import { gameStateManager } from './GameStateManager.js';
 import { koRule } from './rules/KoRule.js';
 import { captureRule } from './rules/CaptureRule.js';
-import { suicideRule } from './rules/SuicideRule.js';
+import { suicideRule } from './rules/SuicideRule.js';*/
 
 export class RulesControl {
 	constructor() {

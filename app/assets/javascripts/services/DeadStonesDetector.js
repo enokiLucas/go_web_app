@@ -1,5 +1,5 @@
-import { influenceMap } from './InfluenceMap.js';
-import { rulesControl } from './RulesControl.js';
+/*import { influenceMap } from './InfluenceMap.js';
+import { rulesControl } from './RulesControl.js';*/
 
 class DeadStonesDetector {
 	constructor() {}

@@ -1,4 +1,4 @@
-import { gameStateManager } from '../GameStateManager.js';
+/*import { gameStateManager } from '../GameStateManager.js';*/
 
 class Timer {
 	constructor() {
