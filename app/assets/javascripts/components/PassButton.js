@@ -1,6 +1,6 @@
-import { gameStateManager } from '../services/GameStateManager.js'
+/*import { gameStateManager } from '../services/GameStateManager.js'
 import { loadStyles } from '../utils/StyleLoader.js';
-import { getPlayerSGFColor } from '../utils/SGFUtil.js'
+import { getPlayerSGFColor } from '../utils/SGFUtil.js'*/
 
 class PassButton extends HTMLElement {
 	constructor() {

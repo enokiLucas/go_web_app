@@ -1,5 +1,5 @@
-import { gameStateManager } from '../services/GameStateManager.js';
-import { loadStyles } from '../utils/StyleLoader.js';
+/*import { gameStateManager } from '../services/GameStateManager.js';
+import { loadStyles } from '../utils/StyleLoader.js';*/
 
 class SGFDownloadButton extends HTMLElement {
 	constructor() {
