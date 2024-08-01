@@ -1,5 +1,5 @@
-import { loadHTML } from '../../../utils/HTMLLoader.js';
-import { loadStyles } from '../../../utils/StyleLoader.js';
+/*import { loadHTML } from '../../../utils/HTMLLoader.js';
+import { loadStyles } from '../../../utils/StyleLoader.js';*/
 
 class TabMatchSettings extends HTMLElement {
 	constructor() {

@@ -1,7 +1,7 @@
-import { gameStateManager } from '../../../services/GameStateManager.js';
+/*import { gameStateManager } from '../../../services/GameStateManager.js';
 import { timer } from '../../../services/time/Timer.js';
 import { loadStyles } from '../../../utils/StyleLoader.js';
-import { newMatchManager } from '../../../services/NewMatchManager.js'
+import { newMatchManager } from '../../../services/NewMatchManager.js'*/
 
 class ButtonNewGame extends HTMLElement {
 	constructor() {
