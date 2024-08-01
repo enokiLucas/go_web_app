@@ -1,4 +1,4 @@
-import { EDGE_MARGIN, LENGTH_SQUARE, ALPHABET, OFFSET, TEXT_STYLE, SVG_NS } from '../utils/constants.js'; //Import global variables
+/*import { EDGE_MARGIN, LENGTH_SQUARE, ALPHABET, OFFSET, TEXT_STYLE, SVG_NS } from '../utils/constants.js'; //Import global variables
 import { SVGBoard } from './SVGBoard.js';//Import the method that creates the board.
 import { loadStyles } from '../utils/StyleLoader.js';
 import { addEventListeners } from '../services/EventListeners.js';
@@ -6,7 +6,7 @@ import { createGhostStone } from '../utils/GhostStoneUtil.js';
 import { handleIntersectionClick } from '../services/HandleIntersectionClick.js';
 import { handleIntersectionHover } from '../services/HandleIntersectionHover.js';
 import { gameStateManager } from '../services/GameStateManager.js';
-import { rulesControl } from '../services/RulesControl.js';
+import { rulesControl } from '../services/RulesControl.js';*/
 
 class GoBoard extends HTMLElement {
 	constructor() {
