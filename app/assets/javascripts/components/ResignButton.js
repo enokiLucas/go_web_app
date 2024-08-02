@@ -9,7 +9,7 @@ class ResignButton extends HTMLElement {
 	}
 
 	connectedCallback() {
-		loadStyles(this.shadowRoot, '../assets/styles/Buttons.css');
+		loadStyles(this.shadowRoot, '../stylesheets/Buttons.css');
 		const button = document.createElement('button');
 
 		button.textContent = 'Resign';
