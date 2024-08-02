@@ -9,7 +9,7 @@ class PassButton extends HTMLElement {
 	}
 
 	connectedCallback() {
-		loadStyles(this.shadowRoot, '../stylesheets/Buttons.css');
+		loadStyles(this.shadowRoot, '../../stylesheets/Buttons.css');
 		const button = document.createElement('button');
 
 		button.textContent = 'Pass';

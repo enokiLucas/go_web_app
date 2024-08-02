@@ -15,7 +15,7 @@ class GoBoard extends HTMLElement {
 	}
 
 	async connectedCallback() {
-		await loadStyles(this.shadowRoot, '../stylesheets/GoBoard.css');
+		await loadStyles(this.shadowRoot, '../../stylesheets/GoBoard.css');
 		// Called when the element is inserted into the DOM
 		this.initializeBoard(gameStateManager.boardSize);
 
