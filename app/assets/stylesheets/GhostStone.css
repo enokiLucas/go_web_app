@@ -1,6 +1,0 @@
-ghost-stone {
-	position: absolute; /* or relative, depending on your layout */
-	top: 0;
-	left: 0;
-	z-index: 10; /* Adjust as needed to bring it above the board */
-}
